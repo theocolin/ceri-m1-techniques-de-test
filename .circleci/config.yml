@@ -4,6 +4,7 @@ version: 2.1
 
 orbs:
   codecov: codecov/codecov@3.0.0
+
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
@@ -14,7 +15,7 @@ jobs:
     # Be sure to update the Docker image tag below to openjdk version of your application.
     # A list of available CircleCI Docker Convenience Images are available here: https://circleci.com/developer/images/image/cimg/openjdk
     docker:
-      - image: cimg/openjdk:11.0
+      - image: cimg/openjdk:8.0
     # Add steps to the job
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
@@ -31,9 +32,9 @@ jobs:
       - codecov/upload
 
 # Invoke jobs via workflows
-# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  sample: # This is the name of the workflow, feel free to change it to better match your workflow.
+  workflowName: # This is the name of the workflow, feel free to change it to better match your workflow.
+          
     # Inside the workflow, you define the jobs you want to run.
     jobs:
       - build-and-test:
@@ -41,4 +42,3 @@ workflows:
           branches:
             only:
               - master
-

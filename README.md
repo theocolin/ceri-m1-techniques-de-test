@@ -34,4 +34,10 @@ Le rendu des TPs se fait au rythme suivant :
 
 Pour chaque rendu, le projet dans son intégralité doit être déposé sur la plateforme.
 
+TP4 : Badges
+
+[![CircleCI](https://circleci.com/gh/theocolin/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://circleci.com/gh/theocolin/ceri-m1-techniques-de-test/tree/master)
+
+[![codecov](https://codecov.io/gh/theocolin/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=A1IMWV74V1)](https://codecov.io/gh/theocolin/ceri-m1-techniques-de-test)
+
 [^1]: Si vous n’êtes vraiment pas à l’aise avec cet outil nous vous conseillons quand même vivement de vous y mettre.
