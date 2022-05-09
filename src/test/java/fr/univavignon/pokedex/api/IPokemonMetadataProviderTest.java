@@ -10,7 +10,7 @@ import org.mockito.Mockito;
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.when;
 
-public class IPokemonMetadataProviderTest {
+public class IPokemonMetadataProviderTest extends TestCase {
 
     @Mock
     IPokemonMetadataProvider pokemonMetadataProvider = Mockito.mock(IPokemonMetadataProvider.class);
@@ -35,7 +35,7 @@ public class IPokemonMetadataProviderTest {
             assertEquals(bulbi, pokemonMetadataProvider.getPokemonMetadata(0));
             assertThrows(PokedexException.class, (ThrowingRunnable) pokemonMetadataProvider.getPokemonMetadata(-1));
             assertThrows(PokedexException.class, (ThrowingRunnable) pokemonMetadataProvider.getPokemonMetadata(200));
-        }catch (PokedexException e){
+        } catch (PokedexException e){
             e.printStackTrace();
         }
     }
