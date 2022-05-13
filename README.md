@@ -35,7 +35,8 @@ Le rendu des TPs se fait au rythme suivant :
 Pour chaque rendu, le projet dans son intégralité doit être déposé sur la plateforme.
 
 TP4 : Badges
-[![Dev](https://badgen.net/badge/dev/theo%20colin/blue)](https://github.com/theocolin)
+
+[![Dev](https://badgen.net/badge/dev/Théo%20colin/blue)](https://github.com/theocolin)
 ![Groupe](https://badgen.net/badge/groupe/alternants/purple)
 
 
