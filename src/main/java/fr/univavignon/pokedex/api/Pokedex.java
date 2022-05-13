@@ -23,13 +23,13 @@ public class Pokedex implements IPokedex {
 
     @Override
     public int addPokemon(Pokemon pokemon) {
-        this.storedPokemon.add(pokemon);
+        this.storedPokemon.add(pokemon.getIndex(), pokemon);
         return this.storedPokemon.lastIndexOf(pokemon);
     }
 
     @Override
     public Pokemon getPokemon(int id) throws PokedexException {
-        if (id < this.size()) {
+        if (this.storedPokemon.get(id) != null) {
             return this.storedPokemon.get(id);
         }
         else {
