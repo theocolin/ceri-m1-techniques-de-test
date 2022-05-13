@@ -27,7 +27,7 @@ jobs:
           command: mvn -B -DskipTests clean package
       # Then run your tests!
       - run:
-          name: test
+          name: Test
           command: mvn test
       - codecov/upload
 
