@@ -36,8 +36,14 @@ Pour chaque rendu, le projet dans son intégralité doit être déposé sur la p
 
 TP4 : Badges
 
+[![Dev](https://badgen.net/badge/dev/Théo%20Colin/blue)](https://github.com/theocolin)
+![Groupe](https://badgen.net/badge/groupe/alternants/purple)
+
+
 [![CircleCI](https://circleci.com/gh/theocolin/ceri-m1-techniques-de-test/tree/master.svg?style=svg)](https://circleci.com/gh/theocolin/ceri-m1-techniques-de-test/tree/master)
 
 [![codecov](https://codecov.io/gh/theocolin/ceri-m1-techniques-de-test/branch/master/graph/badge.svg?token=A1IMWV74V1)](https://codecov.io/gh/theocolin/ceri-m1-techniques-de-test)
+
+
 
 [^1]: Si vous n’êtes vraiment pas à l’aise avec cet outil nous vous conseillons quand même vivement de vous y mettre.
